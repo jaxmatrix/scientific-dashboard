@@ -1,0 +1,41 @@
+<mat-toolbar class="bg-red-50 hover:bg-red-100 p-1">
+  <mat-toolbar-row class="">
+    <button mat-raised-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <span class="title flex flex-grow ml-4">Scientific Dashboard</span>
+
+    <div class="flex flex-row">
+      <ul class="flex flex-row gap-4">
+        <li>
+          <button mat-icon-button>
+            <mat-icon>settings</mat-icon>
+          </button>
+        </li>
+        <li>
+          <button mat-icon-button>
+            <mat-icon>help_outline</mat-icon>
+          </button>
+        </li>
+        <li>
+          <button mat-raised-button [matMenuTriggerFor]="menu" class="pl-4">
+            <mat-icon >person_outline</mat-icon>
+          </button>
+
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon>exit_to_app</mat-icon>
+              Sign Out
+            </button>
+          </mat-menu>
+        </li>
+      </ul>
+    </div>
+
+
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
