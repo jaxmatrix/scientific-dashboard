@@ -1,27 +1,23 @@
-# Dashboard
+# Scientific Dashboard 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+This dashboard is ment to demonstrate how a dashboard for scientific research can be developed to assist in consolidation of data and planning of the 
+experiments. This was a simplar application can be made to enable users in lab to finish and organize their experiments.
 
-## Development server
+This dashboard will be implemented with [TODO:]backend service that will hold the information about the experiments.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Prequisite 
 
-## Code scaffolding
+Install Nodejs, npm and `angular-cli` 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Installation
 
-## Build
+Run 
+```bash
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Run
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+ng serve 
+```
